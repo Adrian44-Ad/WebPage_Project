@@ -1,0 +1,35 @@
+#title {
+    display: flex;
+    width: 100px;
+    height: 100px;
+}
+
+header {
+    display: flex;
+    background-color: burlywood;
+}
+
+nav {
+    display: flex;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+/* PARA COLOCAR ICONOS EN CADA <li> */
+
+li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 5%;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+/* PARA COLOCAR UN ICONO A CADA LISTA INDIVIDUALMENTE*/
+
+
