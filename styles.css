@@ -124,7 +124,7 @@ a:hover {
 }
 
 .section_1 aside {
-    width: 40%;
+    width: 85%;
     background-color: rgba(255, 255, 255, 0.575);
     border: 2px solid black;
     padding: 20px;
@@ -148,7 +148,8 @@ a:hover {
     gap: 5px;
     background-color: rgba(255, 255, 255, 0.575);
     border: 2px solid black;
-    padding: 10px;
+    padding: 60px;
+
 }
 
 .section_1 main figure {
